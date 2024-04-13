@@ -34,7 +34,7 @@ setErr(true)
                     <button>Sign in</button>
                     {err && <span>Getting Error</span>}
                 </form>
-                <p>Already have a account?<Link to="/register"> Register </Link></p>
+                <p >Already have a account?<Link to="/register"> Register </Link></p>
             </div>
         </div>
     )

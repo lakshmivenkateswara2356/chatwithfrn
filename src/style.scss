@@ -21,16 +21,17 @@
 
 
 .formContainer{
-    background-color: #a7bcff;
+    background-image: url("https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=");
     height:100vh;
     display: flex;
+    background-size: cover;
     align-items: center;
     justify-content: center;
 
     .formWrapper{
-        background-color: white;
+        backdrop-filter: blur(70px);
         padding: 20px 60px;
-        border: radius 10px;
+        border-radius :20px;
         display: flex;
         flex-direction:column;
         gap: 10px;
@@ -40,6 +41,7 @@
             color:#5d5b8d;
             font-weight:bold;
             font-size: 24px;
+            font-family: caveat;
           
         }
 
@@ -93,7 +95,7 @@
         }
       }
       p{
-        color:#5d5b8d ;
+        color:#f4f4f6 ;
         font-size:12px;
         margin-top: 10px;
       }
